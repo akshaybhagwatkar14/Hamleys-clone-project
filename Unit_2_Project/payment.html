@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <script
+      src=" https://kit.fontawesome.com/24c494a6b6.js"
+      crossorigin="anonymous"
+    ></script>
+ <link rel="stylesheet" href="style/paymentstyle.css">
+</head>
+<body>
+    
+    
+      <div id="bar">
+        <h3 onclick="back()"><i class="fa-solid fa-caret-left"></i>   Back to your bag</h3>
+        <div><a href="index.html"><img src="assest/img/logopng.png" width="130px" height="60px" alt=""></a></div>
+        <h3>Secure checkout</h3>
+      </div>
+        <div id="container">
+            <div id="left">
+                <div class="title">New address</div>
+                <form id="form">
+           
+                <div class="input_box">
+                    <span class="delatile">Name*</span><br>
+                    <input type="text" class="cname"  id="in1" placeholder="Enter your name*" required>
+                 </div>
+                 <div class="input_box">
+                    <span class="delatile">Street address*</span><br>
+                    <input type="text" class="cadd" id="in1" placeholder="Enter your address*" required>
+                 </div>
+                 <div id="set">
+                 <div class="input_box">
+                    <span class="delatile">Pincode*</span><br>
+                    <input type="number"  class="cpin" id="in2" placeholder="Enter your pincode*" required>
+                 </div>
+                 <div class="input_box">
+                    <span class="delatile">City*</span><br>
+                    <input type="text"  class="ccity" id="in2" placeholder="Enter your pincode*" required>
+                 </div>
+                </div>
+                <div id="set1">
+                 <div class="input_box1">
+                    <span class="delatile1">State*</span><br>
+                    <input type="text" class="cstate" id="in2" placeholder="Enter your State*" required>
+                 </div>
+                 <div class="input_box1">
+                    <span class="delatile1">Receiver mobile number*</span><br>
+                    <input type="number" class="cmobile" id="in2" placeholder="Enter receiver mobile number *" required>
+                 </div>
+                </div>
+                 <div class="input_box">
+                    <span class="delatile">Email*</span><br>
+                    <input type="email" class="cemail" id="in1" placeholder="Enter your email*" required>
+                 </div>
+                 <div >
+                 <p ></p>
+                 <div id="font">
+                  <b style="color: black;">Address type:</b>
+                            <input type="radio" class="chome" class="home" id="contactChoice1" name="contact" value="Home">
+                            <label for="contactChoice1">Home</label>
+                        
+                            <input type="radio"  class="coffice" class="office" id="contactChoice1" name="contact"  value="Office">
+                            <label for="contactChoice1">Office</label>
+                        </div>
+                    </div >
+                        <input type="submit" value="Continue" id="submit"></input>
+                        <div id="size" onclick="back()"><p ><i class="fa-solid fa-arrow-left"></i> Back</p></div>
+                         
+            
+    </form>
+  </div>
+  <div id="right">
+    <div id="right_top"></div>
+    <div id="right_bottom">
+       
+     </div>
+</div>
+    </div>
+</div>
+
+
+</body>
+</html>
+<script src="JS/payment.js">
+ 
+
+    </script>
